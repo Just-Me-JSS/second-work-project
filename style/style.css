@@ -144,27 +144,17 @@ body {
     border-color:rgb(62, 156, 250);
 }
 .last-block {
-    height: 70vh;
+    height: 10vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    justify-content: center;
-    background-color: rgb(227, 218, 218);
 }
-.last-text {
-    width: 20%;
-    padding-left: 20px;
-}
-.info2 {
-    border: #da9053 solid 4px;
-    font-size: 30px;
+.contacts a {
     text-decoration: none;
-    background-color: #da9053;
-    padding: 5px 60px;
-    color: #fff;
+    font-size: 20px;
+    color:#000;
 }
-.info2:hover {
-    transition: .2s linear;
-    background-color: rgb(62, 156, 250);
-    border-color:  rgb(62, 156, 250);
+.contacts a:hover {
+    transition: 0.3s linear;
+    color: rgb(30, 200, 177)
 }
